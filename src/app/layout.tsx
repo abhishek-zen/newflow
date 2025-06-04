@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter, Lexend } from 'next/font/google'
 import Link from 'next/link'
-import ThemeSwitcher from '@/components/theme-switcher'
+import {ThemeSwitcher} from '@/components/theme-switcher'
 import AuthButton from '@/components/header-auth'
 import { Suspense } from 'react'
 import { Metadata } from 'next'
